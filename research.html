@@ -5,175 +5,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research | Ankur Jyoti Kalita</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/research.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">A.J. Kalita</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="code.html">Code</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="research-inner nav-inner">
+                <div class="logo">Ankur Jyoti Kalita</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html" class="active">Research</a></li>
+                    <li><a href="code.html">Code</a></li>
+                    <li><a href="contact.html">About &amp; Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <header class="page-header">
-        <div class="container">
-            <h1>Research, Publications & Projects</h1>
-            <p class="page-intro">
-                This page presents an overview of my research themes, selected projects,
-                and publication record. It is intended as a concise scientific portfolio
-                highlighting both current directions and representative outputs.
-            </p>
-        </div>
-    </header>
-
     <main>
 
-        <section class="content-section">
+        <section class="content-section research-intro-section">
             <div class="container">
-                <h2>Research Overview</h2>
-                <p>
-                    Add a compact overview of your scientific interests here. This section should
-                    explain your broader research identity, the main physical problems you work on,
-                    and the observational, theoretical, or computational approaches you use.
-                </p>
-            </div>
-        </section>
+                <div class="research-inner">
+                    <div class="section-heading">
+                        <h2>Research Interests</h2>
+                    </div>
 
-        <section class="content-section alt-section">
-            <div class="container">
-                <h2>Research Themes</h2>
-
-                <div class="card-grid">
-                    <article class="info-card">
-                        <h3>Theme 1</h3>
-                        <p>
-                            Brief description of a major research theme. Keep this concise and
-                            scientific, with enough detail to explain the motivation and scope.
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Theme 2</h3>
-                        <p>
-                            Brief description of another major research direction, method, or
-                            scientific question that defines your work.
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Theme 3</h3>
-                        <p>
-                            Add another theme here. You can later expand this section to include
-                            more detailed summaries or figures if needed.
-                        </p>
-                    </article>
+                    <p class="lead-text research-intro-text">
+                        My research focuses on the spectroscopy of massive stars, with particular emphasis on
+                        understanding the physical origin of spectroscopic line profile variability and its
+                        connection to asteroseismology. As part of my PhD, I work on the modelling and interpretation
+                        of macroturbulence, pulsational variability, and turbulent subsurface convection, and how
+                        these processes shape stellar line profiles in high-resolution spectroscopy. More broadly,
+                        I am interested in how spectroscopic diagnostics and asteroseismology can be combined to
+                        constrain the internal structure, rotation, mixing, and evolutionary properties of massive
+                        stars. I also have a strong interest in binary stars and stellar multiplicity, and in how
+                        multi-technique approaches can improve our understanding of stellar evolution.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section alt-section research-themes-section">
             <div class="container">
-                <h2>Selected Projects</h2>
+                <div class="research-inner">
+                    <div class="section-heading">
+                        <h2>Research Themes</h2>
+                    </div>
 
-                <div class="stack-list">
-                    <article class="stack-item">
-                        <h3>Project Title One</h3>
-                        <p>
-                            Add a short project summary here. This can include the scientific
-                            objective, the data or modelling used, and the broader context.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">Project Link</a>
-                            <a href="#">Associated Paper</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                    <div class="research-theme-grid">
 
-                    <article class="stack-item">
-                        <h3>Project Title Two</h3>
-                        <p>
-                            Add another project summary here. This format works well for short,
-                            focused descriptions with links to outputs.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">Project Link</a>
-                            <a href="#">Associated Paper</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                        <article class="theme-tile">
+                            <img src="assets/images/lpv.png" alt="Theme 1">
+                            <div class="theme-overlay">
+                                <h3>Spectroscopic Line Profile Variability</h3>
+                                <p>
+                                    Investigating the origin and morphology of line profile variability in
+                                    massive stars using time-series spectroscopy and modelling.
+                                </p>
+                            </div>
+                        </article>
 
-                    <article class="stack-item">
-                        <h3>Project Title Three</h3>
-                        <p>
-                            Add a third project here. Later you can duplicate this block as many
-                            times as needed.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">Project Link</a>
-                            <a href="#">Associated Paper</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                        <article class="theme-tile">
+                            <img src="assets/images/rot_mixing.jpg" alt="Theme 2">
+                            <div class="theme-overlay">
+                                <h3>Macroturbulence, Pulsations, and Convection</h3>
+                                <p>
+                                    Interpreting macroturbulent broadening in the context of stellar pulsations
+                                    and turbulent subsurface convection.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="theme-tile">
+                            <img src="assets/images/multiplicity.jpg" alt="Theme 3">
+                            <div class="theme-overlay">
+                                <h3>Massive Star Evolution and Multiplicity</h3>
+                                <p>
+                                    Exploring how asteroseismology and binary properties can
+                                    together constrain the evolution of massive stars.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="content-section alt-section">
+        <section class="content-section research-bottom-section">
             <div class="container">
-                <h2>Selected Publications</h2>
+                <div class="research-inner">
+                    <div class="research-split-layout">
 
-                <div class="stack-list">
-                    <article class="stack-item">
-                        <h3>Publication Title One</h3>
-                        <p>
-                            Author list, journal, year. Add a one-line description if useful.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">ADS</a>
-                            <a href="#">arXiv</a>
-                            <a href="#">DOI</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                        <div class="research-column left-column">
+                            <h2>Ongoing Projects</h2>
 
-                    <article class="stack-item">
-                        <h3>Publication Title Two</h3>
-                        <p>
-                            Author list, journal, year. Add a short scientific context here if desired.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">ADS</a>
-                            <a href="#">arXiv</a>
-                            <a href="#">DOI</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                            <div class="research-list">
+                                <article class="research-list-item">
+                                    <h3>Project Title One</h3>
+                                    <p>
+                                        Add a concise summary of an ongoing project here. This can briefly state
+                                        the physical problem, data, modelling approach, and current scientific aim.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">Project link</a>
+                                        <a href="#">Related paper</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
 
-                    <article class="stack-item">
-                        <h3>Publication Title Three</h3>
-                        <p>
-                            Author list, journal, year. You can later turn this into a full publication list.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">ADS</a>
-                            <a href="#">arXiv</a>
-                            <a href="#">DOI</a>
-                            <a href="#">PDF</a>
-                        </p>
-                    </article>
+                                <article class="research-list-item">
+                                    <h3>Project Title Two</h3>
+                                    <p>
+                                        Add another ongoing project summary here. Keep the style concise,
+                                        professional, and scientifically clear.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">Project link</a>
+                                        <a href="#">Related paper</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
+
+                                <article class="research-list-item">
+                                    <h3>Project Title Three</h3>
+                                    <p>
+                                        Add a third project here. This section can be expanded later as needed.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">Project link</a>
+                                        <a href="#">Related paper</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+
+                        <div class="research-column right-column">
+                            <h2>Selected Publications</h2>
+
+                            <div class="publication-list">
+                                <article class="publication-item">
+                                    <h3>Publication Title One</h3>
+                                    <p>
+                                        Author list, journal, year.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">ADS</a>
+                                        <a href="#">arXiv</a>
+                                        <a href="#">DOI</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
+
+                                <article class="publication-item">
+                                    <h3>Publication Title Two</h3>
+                                    <p>
+                                        Author list, journal, year.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">ADS</a>
+                                        <a href="#">arXiv</a>
+                                        <a href="#">DOI</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
+
+                                <article class="publication-item">
+                                    <h3>Publication Title Three</h3>
+                                    <p>
+                                        Author list, journal, year.
+                                    </p>
+                                    <p class="item-links">
+                                        <a href="#">ADS</a>
+                                        <a href="#">arXiv</a>
+                                        <a href="#">DOI</a>
+                                        <a href="#">PDF</a>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section alt-section ads-section">
+            <div class="container">
+                <div class="research-inner">
+                    <p class="ads-text">
+                        <strong>Access all work using <a href="https://ui.adsabs.harvard.edu/" target="_blank">NASA/ADS</a>.</strong>
+                    </p>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+        </div>
     </footer>
 
 </body>
