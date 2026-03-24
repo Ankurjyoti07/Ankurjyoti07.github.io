@@ -1,9 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ankur Jyoti Kalita</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello, this is my website</h1>
+
+    <!-- Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ankur Jyoti Kalita</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="code.html">Code</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="home-banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1>Ankur Jyoti Kalita</h1>
+            <p>Astrophysics PhD Candidate · Newcastle University</p>
+        </div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Welcome to my homepage</h2>
+                <p class="lead-text">
+                    I am an Astrophysics PhD student in the School of Mathematics, Statistics and Physics
+                    at Newcastle University, UK. This website presents my research activities, publications,
+                    computational work, and professional profile. For collaborations, research discussions,
+                    or professional opportunities, please feel free to
+                    <a href="mailto:a.j.kalita2@newcastle.ac.uk">email me</a>.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-image-wrap">
+                        <img src="assets/images/mercator.jpeg" alt="Research">
+                    </div>
+                    <h3>Research</h3>
+                    <p>
+                        Find out more about my research interests, ongoing projects,
+                        and publications.
+                    </p>
+                    <a href="research.html" class="button-link">View Research</a>
+                </article>
+
+		<article class="feature-card">
+    		    <div class="feature-image-wrap">
+        		<img src="assets/images/coding.jpg" alt="Code">
+    		    </div>
+    		    <h3>Code</h3>
+    	            <p>
+			Explore my software development, data-analysis pipelines, 
+			and scientific computing work.
+    		    </p>
+    		    <a href="code.html" class="button-link">View Code</a>
+		</article>
+
+
+                <article class="feature-card">
+                    <div class="feature-image-wrap">
+                        <img src="assets/images/me.jpg" alt="Profile photo">
+                    </div>
+                    <h3>About & Contact</h3>
+                    <p>
+                        Learn more about my academic journey, professional profile,
+                        and contact details.
+                    </p>
+                    <a href="contact.html" class="button-link">Get in Touch</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV section -->
+    <section class="content-section alt-section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Curriculum Vitae</h2>
+                <p class="lead-text">
+                    Two versions of my CV are available depending on the context of interest.
+                </p>
+            </div>
+
+            <div class="cv-buttons">
+                <a href="assets/cv/academic_cv.pdf" class="cv-card" target="_blank">
+                    <h3>Academic CV</h3>
+                    <p>Research experience, publications, talks, and academic profile.</p>
+                </a>
+
+                <a href="assets/cv/industry_cv.pdf" class="cv-card" target="_blank">
+                    <h3>Industry CV</h3>
+                    <p>Technical skills, software development, and broader professional profile.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Useful links -->
+    <section class="useful-links-section">
+        <div class="container">
+            <h2>Useful Links</h2>
+            <div class="links-columns">
+                <ul class="useful-links-list">
+                    <li><a href="https://github.com/Ankurjyoti07/" target="_blank">My GitHub</a></li>
+                    <li><a href="https://www.ncl.ac.uk/maths-physics/" target="_blank">School of Mathematics, Statistics and Physics</a></li>
+                    <li><a href="https://research.ncl.ac.uk/symphony/" target="_blank">SYMPHONY Project</a></li>
+                    <li><a href="https://blogs.ncl.ac.uk/astro-obs/" target="_blank">Astro-Obs Research Group</a></li>
+                </ul>
+
+                <ul class="useful-links-list">
+                    <li><a href="https://ui.adsabs.harvard.edu" target="_blank">ADS</a></li>
+                    <li><a href="https://arxiv.org/list/astro-ph.SR/recent" target="_blank">arXiv: astro-ph.SR</a></li>
+                    <li><a href="http://archive.eso.org/cms/data-portal.html" target="_blank">ESO Data Portal</a></li>
+                    <li><a href="https://docs.lightkurve.org/index.html" target="_blank">Lightkurve</a></li>
+                    <li><a href="http://archive.stsci.edu/index.html" target="_blank">MAST</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+            <a href="mailto:a.j.kalita2@newcastle.ac.uk" class="button-link footer-button">Email me</a>
+        </div>
+    </footer>
+
 </body>
 </html>
