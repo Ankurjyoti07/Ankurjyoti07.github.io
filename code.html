@@ -5,172 +5,278 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code | Ankur Jyoti Kalita</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/code.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">A.J. Kalita</div>
+            <div class="logo">Ankur Jyoti Kalita</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research</a></li>
-                <li><a href="code.html">Code</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="code.html" class="active">Code</a></li>
+                <li><a href="contact.html">About &amp; Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="page-header">
-        <div class="container">
-            <h1>Code & Software Development</h1>
-            <p class="page-intro">
-                This page highlights my software, data-analysis tools, scientific workflows,
-                and public code contributions. It is intended to provide a concise view of
-                my computational profile and technical work.
-            </p>
-        </div>
-    </header>
-
     <main>
 
-        <section class="content-section">
+        <!-- Hero / Intro -->
+        <section class="code-hero-section">
             <div class="container">
-                <h2>Technical Overview</h2>
-                <p>
-                    Add a short summary here describing your software and computational profile.
-                    This can include scientific programming, data pipelines, numerical modelling,
-                    reproducible workflows, automation, and collaborative software development.
-                </p>
+                <div class="code-hero-grid">
+                    <div class="code-hero-text">
+                        <p class="code-kicker">Technical Portfolio</p>
+                        <h1>Code &amp; Technical Work</h1>
+                        <p class="code-hero-lead">
+                            I build analysis pipelines, visualisation tools, and reproducible scientific software
+                            for extracting insight from complex data. My work combines Python development,
+                            time-series analysis, spectroscopy workflows, and publication-quality plotting.
+                        </p>
+
+                        <div class="code-hero-buttons">
+                            <a href="https://github.com/Ankurjyoti07/" target="_blank" class="button-link">View GitHub</a>
+                            <a href="contact.html" class="button-link secondary-button">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="code-hero-image">
+                        <img src="assets/images/code_hero.jpg" alt="Data analysis and coding workspace">
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Skills / strengths -->
         <section class="content-section alt-section">
             <div class="container">
-                <h2>Core Technical Skills</h2>
+                <div class="section-heading">
+                    <h2>Technical Strengths</h2>
+                    <p class="lead-text">
+                        My coding work sits at the intersection of scientific computing, data analysis,
+                        automation, and clear technical communication.
+                    </p>
+                </div>
 
-                <div class="card-grid">
-                    <article class="info-card">
-                        <h3>Programming</h3>
-                        <p>
-                            Add languages, tools, and ecosystems here. For example: Python, Git,
-                            Linux, Bash, data analysis, visualization, or scientific computing.
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Scientific Workflows</h3>
-                        <p>
-                            Add a short summary of your workflow experience, such as spectroscopy
-                            pipelines, time-series analysis, modelling, or simulation frameworks.
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Software Development</h3>
-                        <p>
-                            Add experience related to package development, collaborative coding,
-                            documentation, testing, version control, or reproducibility.
-                        </p>
-                    </article>
+                <div class="skills-grid">
+                    <div class="skill-pill">Python</div>
+                    <div class="skill-pill">Data Analysis</div>
+                    <div class="skill-pill">Time-Series Analysis</div>
+                    <div class="skill-pill">Signal Processing</div>
+                    <div class="skill-pill">Scientific Computing</div>
+                    <div class="skill-pill">Data Visualisation</div>
+                    <div class="skill-pill">Pipeline Development</div>
+                    <div class="skill-pill">Automation</div>
+                    <div class="skill-pill">Git &amp; GitHub</div>
+                    <div class="skill-pill">Reproducible Workflows</div>
+                    <div class="skill-pill">Spectroscopy Tools</div>
+                    <div class="skill-pill">Interactive Plotting</div>
                 </div>
             </div>
         </section>
 
+        <!-- Featured projects -->
         <section class="content-section">
             <div class="container">
-                <h2>Featured Repositories</h2>
+                <div class="section-heading">
+                    <h2>Featured Technical Projects</h2>
+                </div>
 
-                <div class="stack-list">
-                    <article class="stack-item">
-                        <h3>Repository Name One</h3>
-                        <p>
-                            Add a short description of the repository here, including what it does,
-                            what problem it solves, and what technologies or languages it uses.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">GitHub</a>
-                            <a href="#">Documentation</a>
-                            <a href="#">Example Output</a>
-                        </p>
+                <div class="project-showcase">
+
+                    <article class="project-feature">
+                        <div class="project-image">
+                            <img src="assets/images/project_timeseries.jpg" alt="Time-series analysis plot">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-tag">Time-Series Analysis</p>
+                            <h3>Frequency Analysis and Variability Diagnostics</h3>
+                            <p>
+                                Development of Python workflows for analysing variability in time-series data,
+                                including frequency extraction, periodogram-based diagnostics, uncertainty-aware
+                                comparisons, and visual interpretation of complex signals.
+                            </p>
+                            <p>
+                                This work involves signal-processing methods, batch analysis across multiple targets,
+                                and producing clear figures for both exploration and publication.
+                            </p>
+                            <p class="project-links">
+                                <a href="https://github.com/Ankurjyoti07/" target="_blank">GitHub</a>
+                                <a href="#">Project Notes</a>
+                            </p>
+                        </div>
                     </article>
 
-                    <article class="stack-item">
-                        <h3>Repository Name Two</h3>
-                        <p>
-                            Add another repository summary here. Keep the description practical and
-                            professional, especially for an industry-facing audience.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">GitHub</a>
-                            <a href="#">Documentation</a>
-                            <a href="#">Example Output</a>
-                        </p>
+                    <article class="project-feature reverse">
+                        <div class="project-image">
+                            <img src="assets/images/project_spectroscopy.jpg" alt="Spectroscopy analysis figure">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-tag">Scientific Pipeline Development</p>
+                            <h3>Spectroscopic Modelling and Automated Analysis Pipelines</h3>
+                            <p>
+                                Design of analysis pipelines for high-resolution spectroscopic datasets, including
+                                data ingestion, preprocessing, line-profile diagnostics, radial-velocity workflows,
+                                broadening analysis, and structured output for downstream modelling.
+                            </p>
+                            <p>
+                                A major focus is building robust, reusable code that can handle many spectra efficiently
+                                while maintaining transparency and reproducibility.
+                            </p>
+                            <p class="project-links">
+                                <a href="https://github.com/Ankurjyoti07/" target="_blank">GitHub</a>
+                                <a href="#">Pipeline Summary</a>
+                            </p>
+                        </div>
                     </article>
 
-                    <article class="stack-item">
-                        <h3>Repository Name Three</h3>
-                        <p>
-                            Add another code project here. This section can later be expanded with
-                            screenshots, badges, or more structured metadata if needed.
-                        </p>
-                        <p class="item-links">
-                            <a href="#">GitHub</a>
-                            <a href="#">Documentation</a>
-                            <a href="#">Example Output</a>
-                        </p>
+                    <article class="project-feature">
+                        <div class="project-image">
+                            <img src="assets/images/project_visualisation.jpg" alt="Scientific visualisation and dashboard style plot">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-tag">Visualisation &amp; Tooling</p>
+                            <h3>Interactive Visualisation and Technical Plot Design</h3>
+                            <p>
+                                Creation of clear and information-rich visual outputs for large datasets, including
+                                interactive plots, multi-panel comparison figures, diagnostic dashboards, and
+                                publication-ready graphics designed for technical interpretation.
+                            </p>
+                            <p>
+                                I place strong emphasis on making analytical results easy to inspect, compare,
+                                and communicate to both specialist and broader audiences.
+                            </p>
+                            <p class="project-links">
+                                <a href="https://github.com/Ankurjyoti07/" target="_blank">GitHub</a>
+                                <a href="#">Examples</a>
+                            </p>
+                        </div>
                     </article>
+
                 </div>
             </div>
         </section>
 
+        <!-- How I work -->
         <section class="content-section alt-section">
             <div class="container">
-                <h2>Collaborative Contributions</h2>
+                <div class="work-grid">
+                    <div class="work-text">
+                        <h2>How I Work</h2>
+                        <p class="lead-text">
+                            I approach coding as both a technical and communication task. That means building tools
+                            that are not only effective, but also readable, modular, and easy to extend. My work
+                            usually combines data cleaning, numerical analysis, plotting, and workflow automation.
+                        </p>
+                    </div>
 
-                <div class="stack-list">
-                    <article class="stack-item">
-                        <h3>Software Project / Collaboration</h3>
+                    <div class="work-checklist">
+                        <div class="work-card">Modular Python workflows</div>
+                        <div class="work-card">Clear data visualisation</div>
+                        <div class="work-card">Batch processing pipelines</div>
+                        <div class="work-card">Version-controlled development</div>
+                        <div class="work-card">Reproducible analysis</div>
+                        <div class="work-card">Publication-quality figures</div>
+                        <div class="work-card">Scientific diagnostics</div>
+                        <div class="work-card">Documentation-minded coding</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Repository highlight -->
+        <section class="content-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Selected Repositories and Tools</h2>
+                </div>
+
+                <div class="repo-grid">
+                    <article class="repo-card">
+                        <h3>Time-Series Analysis Tools</h3>
                         <p>
-                            Describe a collaborative codebase or software project here, including
-                            your specific role in development, maintenance, analysis, or workflow design.
+                            Scripts and workflows for variability analysis, frequency diagnostics,
+                            periodograms, and signal interpretation.
                         </p>
-                        <p class="item-links">
-                            <a href="#">Project Link</a>
-                            <a href="#">Repository</a>
-                        </p>
+                        <a href="https://github.com/Ankurjyoti07/" target="_blank">Explore on GitHub</a>
                     </article>
 
-                    <article class="stack-item">
-                        <h3>Another Contribution</h3>
+                    <article class="repo-card">
+                        <h3>Spectroscopy Pipelines</h3>
                         <p>
-                            Add another example here for software where you contributed significantly
-                            but were not the sole developer.
+                            Analysis code for handling spectral datasets, extracting diagnostics,
+                            and building reusable scientific workflows.
                         </p>
-                        <p class="item-links">
-                            <a href="#">Project Link</a>
-                            <a href="#">Repository</a>
+                        <a href="https://github.com/Ankurjyoti07/" target="_blank">Explore on GitHub</a>
+                    </article>
+
+                    <article class="repo-card">
+                        <h3>Visualisation and Utility Scripts</h3>
+                        <p>
+                            Plotting tools, analysis helpers, automation scripts, and technical utilities
+                            developed for research and data exploration.
                         </p>
+                        <a href="https://github.com/Ankurjyoti07/" target="_blank">Explore on GitHub</a>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="content-section">
+        <!-- Snapshot gallery -->
+        <section class="content-section alt-section">
             <div class="container">
-                <h2>GitHub Profile</h2>
-                <p>
-                    Add a short invitation to explore your public repositories and software work.
-                </p>
-                <p class="item-links">
-                    <a href="#">Visit my GitHub profile</a>
-                </p>
+                <div class="section-heading">
+                    <h2>Analysis Snapshots</h2>
+                    <p class="lead-text">
+                        A visual selection of technical work including plots, analysis outputs,
+                        and coding-oriented graphics.
+                    </p>
+                </div>
+
+                <div class="snapshot-grid">
+                    <div class="snapshot-item">
+                        <img src="assets/images/snapshot_1.jpg" alt="Analysis snapshot one">
+                    </div>
+                    <div class="snapshot-item">
+                        <img src="assets/images/snapshot_2.jpg" alt="Analysis snapshot two">
+                    </div>
+                    <div class="snapshot-item">
+                        <img src="assets/images/snapshot_3.jpg" alt="Analysis snapshot three">
+                    </div>
+                    <div class="snapshot-item">
+                        <img src="assets/images/snapshot_4.jpg" alt="Analysis snapshot four">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing CTA -->
+        <section class="content-section code-cta-section">
+            <div class="container">
+                <div class="code-cta-box">
+                    <h2>Interested in my technical work?</h2>
+                    <p>
+                        You can explore my repositories on GitHub or get in touch to discuss
+                        scientific software, data analysis, and technical collaboration.
+                    </p>
+                    <div class="code-cta-links">
+                        <a href="https://github.com/Ankurjyoti07/" target="_blank" class="button-link">GitHub</a>
+                        <a href="contact.html" class="button-link secondary-button">Contact</a>
+                    </div>
+                </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+            <a href="mailto:a.j.kalita2@newcastle.ac.uk" class="button-link footer-button">Email me</a>
+        </div>
     </footer>
 
 </body>
