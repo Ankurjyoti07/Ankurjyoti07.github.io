@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Ankur Jyoti Kalita</title>
+    <title>About & Contact | Ankur Jyoti Kalita</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="contact-page">
 
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">A.J. Kalita</div>
+            <div class="logo">Ankur Jyoti Kalita</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="code.html">Code</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">About &amp; Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="page-header">
+    <header class="page-header contact-header">
         <div class="container">
-            <h1>Contact</h1>
+            <h1>About &amp; Contact</h1>
             <p class="page-intro">
-                I welcome enquiries regarding research collaboration, scientific discussions,
-                software and technical work, or broader professional opportunities.
+                I am an Astrophysics PhD candidate at Newcastle University working in stellar spectroscopy,
+                asteroseismology, and scientific computing. I welcome enquiries regarding research collaboration,
+                technical work, academic discussions, and broader professional opportunities.
             </p>
         </div>
     </header>
@@ -34,63 +37,93 @@
 
         <section class="content-section">
             <div class="container">
-                <h2>Get in Touch</h2>
-                <p>
-                    Interested in collaboration, research discussions, or professional opportunities?
-                    Please feel free to get in touch using the contact details below.
-                </p>
+                <div class="contact-main-grid">
+
+                    <div class="contact-text-block">
+                        <h2>Get in Touch</h2>
+                        <p class="lead-text">
+                            Please feel free to reach out regarding research collaboration, conference or seminar
+                            invitations, scientific software, data analysis, or other professional opportunities.
+                        </p>
+                        <p class="lead-text">
+                            I am particularly interested in conversations around massive-star spectroscopy,
+                            time-series analysis, scientific programming, and the development of robust,
+                            reproducible analysis workflows.
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>Contact Details</h3>
+
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p><a href="mailto:a.j.kalita2@newcastle.ac.uk">a.j.kalita2@newcastle.ac.uk</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h4>Affiliation</h4>
+                            <p>
+                                School of Mathematics, Statistics and Physics<br>
+                                Newcastle University<br>
+                                Newcastle upon Tyne<br>
+                                United Kingdom
+                            </p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h4>Availability</h4>
+                            <p>
+                                For academic or professional enquiries, email is the best way to get in touch.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
         <section class="content-section alt-section">
             <div class="container">
-                <h2>Contact Details</h2>
-
-                <div class="card-grid">
-                    <article class="info-card">
-                        <h3>Email</h3>
-                        <p>
-                            <a href="mailto:your.email@newcastle.ac.uk">your.email@newcastle.ac.uk</a>
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Office</h3>
-                        <p>
-                            School of Mathematics, Statistics and Physics<br>
-                            Newcastle University<br>
-                            Newcastle upon Tyne<br>
-                            United Kingdom
-                        </p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Phone</h3>
-                        <p>
-                            +44 (0)0000 000000
-                        </p>
-                    </article>
+                <div class="section-heading">
+                    <h2>Professional Profiles</h2>
                 </div>
-            </div>
-        </section>
 
-        <section class="content-section">
-            <div class="container">
-                <h2>Professional Links</h2>
-                <p class="item-links">
-                    <a href="#">GitHub</a>
-                    <a href="#">Google Scholar</a>
-                    <a href="#">ORCID</a>
-                    <a href="#">ADS</a>
-                    <a href="#">LinkedIn</a>
-                </p>
+                <div class="contact-links-grid">
+                    <a href="https://github.com/Ankurjyoti07/" target="_blank" class="contact-link-card">
+                        <h3>GitHub</h3>
+                        <p>Code repositories, technical work, and analysis pipelines.</p>
+                    </a>
+
+                    <a href="#" target="_blank" class="contact-link-card">
+                        <h3>Google Scholar</h3>
+                        <p>Publication record and citation profile.</p>
+                    </a>
+
+                    <a href="#" target="_blank" class="contact-link-card">
+                        <h3>ORCID</h3>
+                        <p>Academic researcher identifier and publication links.</p>
+                    </a>
+
+                    <a href="https://ui.adsabs.harvard.edu/" target="_blank" class="contact-link-card">
+                        <h3>NASA/ADS</h3>
+                        <p>Research publications and astronomy literature profile.</p>
+                    </a>
+
+                    <a href="#" target="_blank" class="contact-link-card">
+                        <h3>LinkedIn</h3>
+                        <p>Broader professional background and connections.</p>
+                    </a>
+                </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>© 2026 Ankur Jyoti Kalita · Newcastle University</p>
+            <a href="mailto:a.j.kalita2@newcastle.ac.uk" class="button-link footer-button">Email me</a>
+        </div>
     </footer>
 
 </body>
