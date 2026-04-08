@@ -9,6 +9,9 @@
     width: min(1300px, 88vw);
 }
 
+.code-page .site-footer .container {
+    width: min(1300px, 88vw);
+}
 
 .code-hero-section {
     padding: 1.02rem 0 1.05rem 0;
@@ -338,4 +341,40 @@
     .code-cta-box p {
         font-size: 1rem;
     }
+}
+
+/* ================= TYPOGRAPHY REFINEMENT (CODE PAGE) ================= */
+
+/* Navbar */
+.code-page .logo {
+    font-size: 1.6rem;
+}
+
+.code-page .nav-links a {
+    font-size: 1.05rem;
+}
+
+/* Section headings (e.g. Technical Strengths, Featured Projects) */
+.code-page h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Project titles */
+.project-content h3 {
+    font-size: 1.35rem;   /* FIX: was too small */
+}
+
+/* Repo titles */
+.repo-card h3 {
+    font-size: 1.1rem;    /* slightly larger than body */
+}
+
+/* Footer */
+.code-page .site-footer {
+    font-size: 15px;
+}
+
+.code-page .site-footer p {
+    font-size: 0.95rem;
 }
