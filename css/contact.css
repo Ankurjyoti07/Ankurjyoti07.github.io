@@ -164,3 +164,77 @@
         font-size: 1rem;
     }
 }
+
+/* ================= CONTACT GALLERY ================= */
+
+.contact-gallery-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.contact-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 220px;
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+/* Base image styling */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+/* Subtle hover effect */
+.gallery-item:hover img {
+    transform: scale(1.04);
+}
+
+/* Layout variations */
+.gallery-item.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gallery-item.wide {
+    grid-column: span 2;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 800px) {
+    .contact-gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .gallery-item.large {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .gallery-item.wide {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-gallery-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+    }
+
+    .gallery-item.large,
+    .gallery-item.wide {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
